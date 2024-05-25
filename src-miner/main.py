@@ -4,17 +4,6 @@ import time
 import pip
 from config import banner
 
-try:
-    from progress.bar import Random
-except ImportError:
-    pip.main(['install', '--user', 'progress'])
-    from progress.bar import Random
-
-try:
-    import requests
-except ImportError:
-    pip.main(['install', '--user', 'requests'])
-    import requests
 def runOffline():
     banner()
     try:
@@ -65,12 +54,7 @@ def runOffline():
 
 
 while True:   
-    os.system("@cls||clear")
-    with Random("\033[36m Start Mining\033[00m") as bar:
-        for i in range(100):
-            time.sleep(0.02)
-            bar.next()
-            
+    os.system("@cls||clear")     
         runOffline()
         break
 else:
