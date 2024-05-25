@@ -1,5 +1,4 @@
 static void show_credits()
-
 {
 printf(CL_LCY" **"PACKAGE_NAME""CL_LYL" "PACKAGE_VERSION CL_LCY" by PICHET SAENGTAWAN**\n");
 printf(CL_N"------------------------------------------------\n\n");
