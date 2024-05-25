@@ -7,10 +7,6 @@ def banner():
     os.system("figlet -f ANSI_Shadow btc")
     os.system("figlet -f ANSI_Shadow solo")
     print("\033[00m\n")
-    print("\033[96mDeveloper by PICHET SAENGTEWAN\033[0m")
-    print("\033[36m\033[0m")
-    
-    print(f"\n\033[91mกำลัง Run Mining\033[0m\n")
 
 def banneredit():
     os.system("clear")
