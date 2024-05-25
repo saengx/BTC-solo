@@ -3,7 +3,7 @@ import json
 import time
 import pip
 from config import banner
-from progress.bar import ShadyBar   
+from os_sys.progress import ShadyBar   
 def runOffline():
     banner()
     try:
