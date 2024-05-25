@@ -5,10 +5,10 @@ import pip
 from config import banner
 
 try:
-    from progress.bar import ShadyBar
+    from progress.bar import Random
 except ImportError:
     pip.main(['install', '--user', 'progress'])
-    from progress.bar import ShadyBar
+    from progress.bar import Random
 
 try:
     import requests
@@ -66,7 +66,7 @@ def runOffline():
 
 while True:   
     os.system("@cls||clear")
-    with ShadyBar("\033[36m Start Mining\033[00m") as bar:
+    with Random("\033[36m Start Mining\033[00m") as bar:
         for i in range(100):
             time.sleep(0.02)
             bar.next()
