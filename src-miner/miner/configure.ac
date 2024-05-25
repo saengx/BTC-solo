@@ -1,4 +1,4 @@
-AC_INIT([BTCsolo-miner],[1.0])
+AC_INIT([BTCsolo-miner],[2.0])
 
 AC_PREREQ([2.59c])
 AC_CANONICAL_SYSTEM
