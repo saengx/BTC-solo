@@ -3,7 +3,17 @@ import json
 import time
 import pip
 from config import banner
-import ShadyBar   
+try:
+    from progress.bar import ShadyBar
+except ImportError:
+    pip.main(['install', '--user', 'progress'])
+    from progress.bar import ShadyBar
+
+try:
+    import requests
+except ImportError:
+    pip.main(['install', '--user', 'requests'])
+    import requests  
 def runOffline():
     banner()
     try:
