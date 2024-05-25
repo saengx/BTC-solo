@@ -6,18 +6,11 @@ from config import banner
 
 
 # check import module
-#try:
-#    with open("setip/ip.json", encoding="utf-8") as set:
-#            load = set.read()
-#            loads = json.loads(load)
-#            ip = loads['ip']
-
-#    os.system(f"cd set-miner && wget -N --timeout 5 --connect-timeout=10 -t 1 http://{ip}/online.json")
-#    time.sleep(2)
-#    from progress.bar import ShadyBar
-#except ImportError:
-#    pip.main(['install', '--user', 'progress'])
-#    from progress.bar import ShadyBar
+try:
+    from progress.bar import ShadyBar
+except ImportError:
+    pip.main(['install', '--user', 'progress'])
+    from progress.bar import ShadyBar
 
 #try:
 #    import requests
