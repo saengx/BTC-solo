@@ -18,7 +18,7 @@ apt-get install nano -y
 
 chmod +x edit
 chmod +x run
-chmod +x update
+chmod +x update-miner
 chmod +x ANSI_Shadow.flf
 chmod +x backup
 chmod +x restore
@@ -35,7 +35,7 @@ apt-get install python3-requests -y
 mv src-miner ../../etc
 mv edit ../../bin
 mv run ../../bin
-mv update ../../bin
+mv update-miner ../../bin
 mv ANSI_Shadow.flf ../../usr/share/figlet
 mv backup /data/data/com.termux/files/usr/bin
 mv restore /data/data/com.termux/files/usr/bin
