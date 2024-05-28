@@ -3,7 +3,7 @@
 cd
 rm -rf BTC-solo
 git clone https://github.com/saengx/BTC-solo
-cd ../etc/mobile-mining/set-miner
+cd ../etc/src-miner/set-miner
 cp -r online.json offline.json /../root/BTC-solo/src-miner/set-miner
 cd
 cd ../etc
