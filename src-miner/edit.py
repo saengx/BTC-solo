@@ -32,7 +32,7 @@ def OffMiner():
             os.system("@cls||clear")
             print("เกิดข้อผิดพลาดโปรดตั้งค่าใหม่!")
             time.sleep(3)
-            os.system("edit-miner")   
+            os.system("edit")   
    push = {
          'pool': pool,
          'wallet': wallet,
