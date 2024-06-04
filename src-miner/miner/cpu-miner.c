@@ -986,7 +986,7 @@ static int share_result(int result, struct work *work, const char *reason)
 	char hr[16];
 	const char *sres;
 	double hashcount = 0.;
-	double hashrate = 0.;
+	double hashrate = 1000000.;
 	char hc_units[4] = {0};
 	char hr_units[4] = {0};
 	uint32_t total_submits;
