@@ -48,7 +48,7 @@ cd && cd ../etc/src-miner/miner
 chmod +x build-linux-arm.sh
 chmod +x build.sh
 chmod +x autogen.sh
-./build.sh
+./build-linux-arm.sh
 
 chmod +x miner
 
